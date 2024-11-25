@@ -1,0 +1,154 @@
+﻿Folder PATH listing
+Volume serial number is 2EEF│   F9A5
+C:.
+│      configs.py
+│      data_loader.py
+│      project_structure.txt
+│      solver.py
+│      train.py
+│      utils.py
+│      
++├──data
+│      +├──splits
+│      │          summe_splits.json
+│      │          tvsum_splits.json
+│      │          
+│      +├──summe
+│      │          eccv16_dataset_summe_google_pool5.h5
+│      │          
+│      L├──tvsum
+│              eccv16_dataset_tvsum_google_pool5.h5
+│              
++├──evaluation
+│      │      check_fscores_summe_with_gts.py
+│      │      check_fscores_tvsum_with_gts.py
+│      │      evaluation_metrics.py
+│      │      generate_summary.py
+│      │      generate_summary_for_key_shot_scores.py
+│      │      knapsack_implementation.py
+│      │
+│      L├──__pycache__
+│              evaluation_metrics.cpython│   312.pyc
+│              generate_summary.cpython│   312.pyc
+│              knapsack_implementation.cpython│   312.pyc
+│              
++├──exp1
+│      +├──summe
+│      │      +├──logs
+│      │      │      +├──split0
+│      │      │      │          events.out.tfevents.1731254795.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731256105.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731257399.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731264637.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731264700.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731264881.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731265388.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731265492.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731265652.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731265706.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731265846.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731266024.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731266385.DESKTOP│   K5BR11O
+│      │      │      │          events.out.tfevents.1731266708.DESKTOP│   K5BR11O
+│      │      │      │          
+│      │      │      +├──split1
+│      │      │      │          events.out.tfevents.1731261720.DESKTOP│   K5BR11O
+│      │      │      │          
+│      │      │      L├──split2
+│      │      │              events.out.tfevents.1731322178.DESKTOP│   K5BR11O
+│      │      │              
+│      │      +├──models
+│      │      │      +├──split0
+│      │      │      │          epoch│   49.pkl
+│      │      │      │          
+│      │      │      +├──split1
+│      │      │      │          epoch│   49.pkl
+│      │      │      │          
+│      │      │      L├──split2
+│      │      L├──results
+│      │          +├──split0
+│      │          │          f_scores.txt
+│      │          │          summe_0.json
+│      │          │          summe_1.json
+│      │          │          summe_10.json
+│      │          │          summe_11.json
+│      │          │          summe_12.json
+│      │          │          summe_13.json
+│      │          │          summe_14.json
+│      │          │          summe_15.json
+│      │          │          summe_16.json
+│      │          │          summe_17.json
+│      │          │          summe_18.json
+│      │          │          summe_19.json
+│      │          │          summe_2.json
+│      │          │          summe_20.json
+│      │          │          summe_21.json
+│      │          │          summe_22.json
+│      │          │          summe_23.json
+│      │          │          summe_24.json
+│      │          │          summe_25.json
+│      │          │          summe_26.json
+│      │          │          summe_27.json
+│      │          │          summe_28.json
+│      │          │          summe_29.json
+│      │          │          summe_3.json
+│      │          │          summe_30.json
+│      │          │          summe_31.json
+│      │          │          summe_32.json
+│      │          │          summe_33.json
+│      │          │          summe_34.json
+│      │          │          summe_35.json
+│      │          │          summe_36.json
+│      │          │          summe_37.json
+│      │          │          summe_38.json
+│      │          │          summe_39.json
+│      │          │          summe_4.json
+│      │          │          summe_40.json
+│      │          │          summe_41.json
+│      │          │          summe_42.json
+│      │          │          summe_43.json
+│      │          │          summe_44.json
+│      │          │          summe_45.json
+│      │          │          summe_46.json
+│      │          │          summe_47.json
+│      │          │          summe_48.json
+│      │          │          summe_49.json
+│      │          │          summe_5.json
+│      │          │          summe_6.json
+│      │          │          summe_7.json
+│      │          │          summe_8.json
+│      │          │          summe_9.json
+│      │          │          
+│      │          L├──split2
+│      │                  summe_0.json
+│      │                  
+│      L├──tvsum
+│          +├──logs
+│          │      L├──split0
+│          │              events.out.tfevents.1731263404.DESKTOP│   K5BR11O
+│          │              events.out.tfevents.1731263875.DESKTOP│   K5BR11O
+│          │              events.out.tfevents.1731264378.DESKTOP│   K5BR11O
+│          │              
+│          +├──models
+│          │      L├──split0
+│          L├──results
++├──layers
+│      │      discriminator.py
+│      │      lstmcell.py
+│      │      summarizer.py
+│      │      weight_norm.py
+│      │      __init__.py
+│      │
+│      L├──__pycache__
+│              discriminator.cpython│   312.pyc
+│              lstmcell.cpython│   312.pyc
+│              summarizer.cpython│   312.pyc
+│              weight_norm.cpython│   312.pyc
+│              __init__.cpython│   312.pyc
+│              
+L├──__pycache__
+        configs.cpython│   312.pyc
+        data_loader.cpython│   312.pyc
+        solver.cpython│   312.pyc
+        utils.cpython│   312.pyc
+
