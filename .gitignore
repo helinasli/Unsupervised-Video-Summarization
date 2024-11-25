@@ -6,7 +6,9 @@
 /SUM-GAN/SUM-GAN-ST
 /SUM-GAN/SUM-GAN-STD
 /SUM-GAN/SUM-GAN-STSED
-/SUM-GAN/SUM-GAN-AED/data
+/SUM-GAN/SUM-GAN-AED/data/tvsum/eccv16_dataset_tvsum_google_pool5.h5
+/SUM-GAN/SUM-GAN-AED/data/summe/eccv16_dataset_summe_google_pool5.h5
+
 
 ### macOS ###
 # General
