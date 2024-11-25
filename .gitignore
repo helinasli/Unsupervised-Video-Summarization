@@ -1,7 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,virtualenv,pycharm+all,windows,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,virtualenv,pycharm+all,windows,macos
 
-/COGNIMUSE-HDF5-main
+/COGNIMUSE-HDF5-main/video
+/COGNIMUSE-HDF5-main/.idea
+/COGNIMUSE-HDF5-main/h5
+/COGNIMUSE-HDF5-main/SumMe
 /SUM-GAN/SUM-GAN-SAT
 /SUM-GAN/SUM-GAN-ST
 /SUM-GAN/SUM-GAN-STD

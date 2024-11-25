@@ -1,0 +1,11 @@
+/key
+    /features                 2D-array with shape (n_steps, feature-dimension)
+    /gtscore                  1D-array with shape (n_steps), stores ground truth importance score (used for training, e.g. regression loss)
+    /user_summary             2D-array with shape (num_users, n_frames), each row is a binary vector (used for test)
+    /change_points            2D-array with shape (num_segments, 2), each row stores indices of a segment
+    /n_frame_per_seg          1D-array with shape (num_segments), indicates number of frames in each segment
+    /n_frames                 number of frames in original video
+    /picks                    positions of sub-sampled frames in original video
+    /n_steps                  number of sub-sampled frames
+    /gtsummary                1D-array with shape (n_steps), ground truth summary provided by user (used for training, e.g. maximum likelihood)
+    /video_name (optional)    original video name, only available for SumMe dataset
