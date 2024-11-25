@@ -13,6 +13,8 @@
 /SUM-GAN/SUM-GAN-AED/data/summe/eccv16_dataset_summe_google_pool5.h5
 /SUM-GAN/SUM-GAN-AED/exp1/tvsum
 
+.gitignore
+
 ### macOS ###
 # General
 .DS_Store
